@@ -10,7 +10,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-public class Chapter01Application {
+public class RabbitmqTutorials {
 
 	@Profile("usage_message")
 	@Bean
@@ -29,7 +29,7 @@ public class Chapter01Application {
 
 
 	public static void main(String[] args) {
-		SpringApplication.run(Chapter01Application.class, args);
+		SpringApplication.run(RabbitmqTutorials.class, args);
 	}
 
 }
