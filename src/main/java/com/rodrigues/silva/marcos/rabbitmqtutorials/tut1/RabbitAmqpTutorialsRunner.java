@@ -1,4 +1,4 @@
-package com.rodrigues.silva.marcos.rabbitmq.chapter01.tut1;
+package com.rodrigues.silva.marcos.rabbitmqtutorials.tut1;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
