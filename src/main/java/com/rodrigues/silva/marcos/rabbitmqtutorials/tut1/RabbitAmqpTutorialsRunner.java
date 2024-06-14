@@ -5,6 +5,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.ConfigurableApplicationContext;
 
+import java.util.Arrays;
+
 public class RabbitAmqpTutorialsRunner implements CommandLineRunner {
 
   @Value("${tutorial.client.duration:0}")
